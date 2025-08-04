@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  height: 90vh;
+}
+textarea {
+  width: 50%;
+  padding: 1rem;
+  border: none;
+  resize: none;
+  font-family: monospace;
+  outline: none;
+}
+.preview {
+  width: 50%;
+  padding: 1rem;
+  border-left: 2px solid #ccc;
+  background: #f9f9f9;
+  overflow-y: auto;
+}
+.actions {
+  text-align: center;
+  margin-top: 10px;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
