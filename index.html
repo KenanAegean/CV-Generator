@@ -3,24 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="CV Maker: write your CV in HTML, preview and download as PDF" />
   <title>CV Maker</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
+  <header class="container">
     <h1>CV Maker</h1>
-
+  </header>
+  <main class="container">
     <div class="editor-preview">
-      <textarea id="htmlInput" placeholder="Write your CV in HTML here…"></textarea>
-      <div id="preview" class="preview"></div>
+      <div class="editor">
+        <label for="htmlInput" class="visually-hidden">CV HTML Editor</label>
+        <textarea id="htmlInput" placeholder="Write your CV in HTML here…"></textarea>
+        <div class="editor-actions">
+          <button id="getTemplate">Get Template</button>
+          <button id="copyHTML">Copy HTML</button>
+          <button id="clearInput">Clear</button>
+          <button id="saveHTML">Save CV HTML</button>
+          <button id="loadHTML">Load CV HTML</button>
+          <!-- hidden file input for loading -->
+          <input type="file" id="loadFileInput" accept=".html, .txt" class="visually-hidden" />
+        </div>
+      </div>
+      <div id="preview" class="preview" aria-live="polite"></div>
     </div>
-
     <div class="actions">
-      <button id="getTemplate">Get Template</button>
       <button id="testATS">Test ATS</button>
       <button id="downloadPDF">Download PDF</button>
     </div>
-  </div>
+  </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   <script src="script.js"></script>

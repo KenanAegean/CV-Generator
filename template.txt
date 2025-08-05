@@ -2,20 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My CV</title>
+  <title>Your Name – Curriculum Vitae</title>
 </head>
 <body>
   <h1>Your Name</h1>
-  <p>Email: you@example.com | Phone: (123) 456-7890</p>
+  <p><strong>Email:</strong> you@example.com | <strong>Phone:</strong> (123) 456-7890</p>
+
+  <h2>Professional Summary</h2>
+  <p>Briefly describe your professional background, strengths, and career goals.</p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Skill or technology 1</li>
+    <li>Skill or technology 2</li>
+    <li>Skill or technology 3</li>
+  </ul>
+
   <h2>Experience</h2>
+  <h3>Job Title at Company</h3>
+  <p><em>Month YYYY – Present</em></p>
   <ul>
-    <li>Job Title at Company — Dates</li>
-    <li>…</li>
+    <li>Describe your responsibilities and achievements.</li>
+    <li>Use bullet points for clarity.</li>
   </ul>
+
   <h2>Education</h2>
+  <h3>Degree, School Name</h3>
+  <p><em>YYYY</em></p>
+
+  <h2>Projects</h2>
   <ul>
-    <li>Degree, School — Year</li>
+    <li><strong>Project Name:</strong> Brief description and technologies used.</li>
   </ul>
-  <!-- etc. -->
+
+  <p class="page-break"></p>
+  <!-- Add more sections as needed -->
 </body>
 </html>
