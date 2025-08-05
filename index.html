@@ -8,13 +8,18 @@
 </head>
 <body>
   <div class="container">
-    <textarea id="htmlInput" placeholder="Write your CV in HTML here..."></textarea>
-    <div id="preview" class="preview"></div>
-  </div>
+    <h1>CV Maker</h1>
 
-  <div class="actions">
-    <button onclick="testATS()">Test ATS</button>
-    <button onclick="downloadPDF()">Download PDF</button>
+    <div class="editor-preview">
+      <textarea id="htmlInput" placeholder="Write your CV in HTML here…"></textarea>
+      <div id="preview" class="preview"></div>
+    </div>
+
+    <div class="actions">
+      <button id="getTemplate">Get Template</button>
+      <button id="testATS">Test ATS</button>
+      <button id="downloadPDF">Download PDF</button>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>

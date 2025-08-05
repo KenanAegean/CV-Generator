@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My CV</title>
+</head>
+<body>
+  <h1>Your Name</h1>
+  <p>Email: you@example.com | Phone: (123) 456-7890</p>
+  <h2>Experience</h2>
+  <ul>
+    <li>Job Title at Company — Dates</li>
+    <li>…</li>
+  </ul>
+  <h2>Education</h2>
+  <ul>
+    <li>Degree, School — Year</li>
+  </ul>
+  <!-- etc. -->
+</body>
+</html>
